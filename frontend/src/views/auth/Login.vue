@@ -1,107 +1,13 @@
 <template>
   <div class="login-layout">
-    <div class="animated-bg">
-      <div class="knowledge-node node-1">
-        <svg class="node-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-          <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20" />
-          <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z" />
-        </svg>
-      </div>
-      <div class="knowledge-node node-2">
-        <svg class="node-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-          <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z" />
-        </svg>
-      </div>
-      <div class="knowledge-node node-3">
-        <svg class="node-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-          <path d="M12 2L2 7l10 5 10-5-10-5z" />
-          <path d="M2 17l10 5 10-5" />
-          <path d="M2 12l10 5 10-5" />
-        </svg>
-      </div>
-      <div class="knowledge-node node-4">
-        <svg class="node-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-          <ellipse cx="12" cy="5" rx="9" ry="3" />
-          <path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3" />
-          <path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5" />
-        </svg>
-      </div>
-      <div class="knowledge-node node-5">
-        <svg class="node-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-          <circle cx="11" cy="11" r="8" />
-          <path d="m21 21-4.35-4.35" />
-        </svg>
-      </div>
-      <div class="knowledge-node node-6">
-        <svg class="node-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-          <path
-            d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z" />
-          <polyline points="3.27 6.96 12 12.01 20.73 6.96" />
-          <line x1="12" y1="22.08" x2="12" y2="12" />
-        </svg>
-      </div>
-      <div class="knowledge-node node-7">
-        <svg class="node-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-          <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" />
-          <polyline points="14 2 14 8 20 8" />
-        </svg>
-      </div>
-      <div class="knowledge-node node-8">
-        <svg class="node-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-          <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
-          <circle cx="9" cy="7" r="4" />
-          <path d="M23 21v-2a4 4 0 0 0-3-3.87" />
-          <path d="M16 3.13a4 4 0 0 1 0 7.75" />
-        </svg>
-      </div>
-      <div class="knowledge-node node-9">
-        <svg class="node-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-          <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" />
-        </svg>
-      </div>
-      <div class="knowledge-node node-10">
-        <svg class="node-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-          <circle cx="12" cy="12" r="3" />
-          <path
-            d="M12 1v6m0 6v6M5.64 5.64l4.24 4.24m4.24 4.24l4.24 4.24M1 12h6m6 0h6M5.64 18.36l4.24-4.24m4.24-4.24l4.24-4.24" />
-        </svg>
-      </div>
-      <div class="knowledge-node node-11">
-        <svg class="node-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-          <path d="M9 11l3 3L22 4" />
-          <path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11" />
-        </svg>
-      </div>
-      <div class="knowledge-node node-12">
-        <svg class="node-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-          <polygon
-            points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
-        </svg>
-      </div>
-
-      <svg class="knowledge-lines" viewBox="0 0 100 100" preserveAspectRatio="none">
-        <line class="connection-line line-1" x1="20" y1="15" x2="35" y2="25" />
-        <line class="connection-line line-2" x1="35" y1="25" x2="55" y2="20" />
-        <line class="connection-line line-3" x1="55" y1="20" x2="85" y2="12" />
-        <line class="connection-line line-4" x1="8" y1="35" x2="25" y2="45" />
-        <line class="connection-line line-5" x1="25" y1="45" x2="65" y2="48" />
-        <line class="connection-line line-6" x1="20" y1="60" x2="60" y2="75" />
-        <line class="connection-line line-7" x1="20" y1="15" x2="20" y2="60" />
-        <line class="connection-line line-8" x1="55" y1="20" x2="45" y2="50" />
-        <line class="connection-line line-9" x1="65" y1="48" x2="90" y2="38" />
-        <line class="connection-line line-10" x1="40" y1="70" x2="75" y2="80" />
-        <line class="connection-line line-11" x1="35" y1="25" x2="25" y2="45" />
-        <line class="connection-line line-12" x1="75" y1="30" x2="65" y2="48" />
-      </svg>
-    </div>
-
     <!-- Logo - Top Left -->
     <a href="https://github.com/Tencent/WeKnora" target="_blank" class="header-logo" :title="$t('common.github')">
-      <img src="@/assets/img/weknora.png" alt="WeKnora" class="logo-image" />
+      <img src="@/assets/img/cowin-logo.png" alt="COWIN 珂阳" class="logo-image" />
     </a>
 
-    <!-- Header Links - Top Right -->
+    <!-- Header Links - Top Right（官方网站与 GitHub 入口按品牌要求隐藏，保留语言切换；恢复时取消下方注释） -->
     <div class="header-links">
+      <!--
       <a href="https://weknora.weixin.qq.com" target="_blank" class="header-link" :title="$t('common.website')">
         <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"
           stroke-linecap="round">
@@ -119,6 +25,7 @@
         </svg>
         <span class="link-text">GitHub</span>
       </a>
+      -->
 
       <div class="language-switch">
         <button @click="toggleLanguageMenu" class="header-link" :title="currentLangOption?.label">
@@ -145,30 +52,7 @@
     <!-- Left Showcase Section -->
     <div class="showcase-section">
       <div class="showcase-content">
-        <p class="showcase-subtitle">{{ $t('platform.subtitle') }}</p>
-        <p class="showcase-description">{{ $t('platform.description') }}</p>
-
-        <div class="feature-tags">
-          <span class="tag">{{ $t('platform.rag') }}</span>
-          <span class="tag">{{ $t('platform.agent') }}</span>
-          <span class="tag">{{ $t('platform.wiki') }}</span>
-          <span class="tag">{{ $t('platform.hybridSearch') }}</span>
-        </div>
-
-        <!-- Swiper Carousel -->
-        <div class="carousel-container">
-          <swiper :modules="modules" :slides-per-view="1" :loop="true" :autoplay="{
-            delay: 4000,
-            disableOnInteraction: false,
-          }" :effect="'fade'" :fade-effect="{ crossFade: true }"
-            :pagination="{ clickable: true, dynamicBullets: false }" :speed="800" class="screenshot-swiper">
-            <swiper-slide v-for="(slide, index) in slides" :key="index">
-              <div class="slide-content">
-                <img :src="slide.image" :alt="slide.title" class="slide-image" />
-              </div>
-            </swiper-slide>
-          </swiper>
-        </div>
+        <p class="showcase-subtitle">大模型驱动的企业级知识库</p>
       </div>
     </div>
 
@@ -194,8 +78,6 @@
           </div>
           <div class="form-header">
             <h2 class="form-title">{{ $t('auth.login') }}</h2>
-            <p class="form-welcome">{{ $t('auth.subtitle') }}</p>
-            <p v-if="registrationEnabled" class="form-hint">{{ $t('auth.loginHint') }}</p>
           </div>
 
           <div class="form-content">
@@ -215,16 +97,6 @@
                 {{ loading ? $t('auth.loggingIn') : $t('auth.login') }}
               </t-button>
 
-              <div class="register-cta" v-if="registrationEnabled">
-                <div class="register-cta__divider">
-                  <span>{{ $t('auth.firstTime') }}</span>
-                </div>
-                <t-button theme="default" variant="outline" size="large" block class="register-cta__button"
-                  :disabled="loading" @click="toggleMode">
-                  {{ $t('auth.createAccount') }}
-                </t-button>
-              </div>
-
               <div v-if="oidcEnabled" class="oidc-divider">
                 <span>{{ $t('auth.orContinueWith') }}</span>
               </div>
@@ -235,21 +107,6 @@
               </t-button>
             </t-form>
 
-            <!-- Features list -->
-            <div class="login-features">
-              <div class="feature-item">
-                <span class="feature-icon">✓</span>
-                <span class="feature-text">{{ $t('platform.multimodalParsing') }}</span>
-              </div>
-              <div class="feature-item">
-                <span class="feature-icon">✓</span>
-                <span class="feature-text">{{ $t('platform.hybridSearchEngine') }}</span>
-              </div>
-              <div class="feature-item">
-                <span class="feature-icon">✓</span>
-                <span class="feature-text">{{ $t('platform.ragQandA') }}</span>
-              </div>
-            </div>
           </div>
         </div>
 
@@ -314,21 +171,6 @@
               </a>
             </div>
 
-            <!-- Features list for register -->
-            <div class="login-features">
-              <div class="feature-item">
-                <span class="feature-icon">✓</span>
-                <span class="feature-text">{{ $t('platform.independentTenant') }}</span>
-              </div>
-              <div class="feature-item">
-                <span class="feature-icon">✓</span>
-                <span class="feature-text">{{ $t('platform.fullApiAccess') }}</span>
-              </div>
-              <div class="feature-item">
-                <span class="feature-icon">✓</span>
-                <span class="feature-text">{{ $t('platform.knowledgeBaseManagement') }}</span>
-              </div>
-            </div>
           </div>
         </div>
       </div>
@@ -344,11 +186,6 @@ import { useRoleLabel } from '@/composables/useRoleLabel'
 import { notifyLoginSuccess } from '@/utils/loginNotify'
 import { canRegister } from './registrationPolicy'
 import { newPasswordRules } from '@/utils/passwordPolicy'
-import { Swiper, SwiperSlide } from 'swiper/vue'
-import { Autoplay, EffectFade, Pagination } from 'swiper/modules'
-import 'swiper/css'
-import 'swiper/css/effect-fade'
-import 'swiper/css/pagination'
 import {
   login,
   register,
@@ -365,44 +202,11 @@ import { useAuthStore } from '@/stores/auth'
 import { useI18n } from 'vue-i18n'
 import { getApiBaseUrl } from '@/utils/api-base'
 
-// Import screenshot images
-import screenshot1 from '@/assets/img/screenshot-1.svg'
-import screenshot2 from '@/assets/img/screenshot-2.svg'
-import screenshot3 from '@/assets/img/screenshot-3.svg'
-import screenshot4 from '@/assets/img/screenshot-4.svg'
-
 const router = useRouter()
 const route = useRoute()
 const authStore = useAuthStore()
 const { t, tm, locale } = useI18n()
 const { formatRole, roleIcon } = useRoleLabel()
-
-// Swiper modules
-const modules = [Autoplay, EffectFade, Pagination]
-
-// Carousel slides data
-const slides = [
-  {
-    image: screenshot4,
-    title: t('platform.carousel.agenticRagTitle'),
-    description: t('platform.carousel.agenticRagDesc')
-  },
-  {
-    image: screenshot2,
-    title: t('platform.carousel.hybridSearchTitle'),
-    description: t('platform.carousel.hybridSearchDesc')
-  },
-  {
-    image: screenshot3,
-    title: t('platform.carousel.wikiTitle'),
-    description: t('platform.carousel.wikiDesc')
-  },
-  {
-    image: screenshot1,
-    title: t('platform.carousel.smartDocRetrievalTitle'),
-    description: t('platform.carousel.smartDocRetrievalDesc')
-  }
-]
 
 // Form references
 const formRef = ref()
@@ -828,12 +632,27 @@ onMounted(async () => {
 
 <style lang="less" scoped>
 .login-layout {
+  /* 白底配色体系（--login-* token）：白纸画布 + 品牌绿墨线装饰，
+     文字用深墨绿保证白底对比度。暗色主题在文件底部
+     html[theme-mode="dark"] 块中整体重定义这组 token。 */
+  --login-canvas: #ffffff;
+  --login-atmo-1: rgba(6, 176, 77, 0.05);
+  --login-atmo-2: rgba(6, 176, 77, 0.035);
+  --login-title: #06301e;
+  --login-pill-bg: rgba(255, 255, 255, 0.9);
+  --login-pill-border: rgba(6, 176, 77, 0.28);
+  --login-pill-text: #035d2a;
+  --login-pill-hover-bg: rgba(6, 176, 77, 0.08);
+  --login-pill-hover-border: rgba(6, 176, 77, 0.5);
+  --login-card-border: rgba(6, 176, 77, 0.12);
+  --login-card-shadow: 0 10px 40px rgba(6, 54, 32, 0.1);
+
   display: flex;
   width: 100%;
   min-height: 100%;
   overflow: hidden;
   position: relative;
-  background: linear-gradient(225deg, #022c22 0%, #064e3b 15%, #065f46 25%, #047857 38%, #059669 50%, #07C05F 65%, #10B981 78%, #34D399 90%, #6EE7B7 100%);
+  background: var(--login-canvas);
 
   &::before {
     content: '';
@@ -842,218 +661,9 @@ onMounted(async () => {
     left: 0;
     right: 0;
     bottom: 0;
-    background: radial-gradient(circle at 20% 50%, rgba(255, 255, 255, 0.06) 0%, transparent 50%),
-      radial-gradient(circle at 80% 50%, rgba(255, 255, 255, 0.04) 0%, transparent 50%);
+    background: radial-gradient(circle at 20% 50%, var(--login-atmo-1) 0%, transparent 50%),
+      radial-gradient(circle at 80% 50%, var(--login-atmo-2) 0%, transparent 50%);
     pointer-events: none;
-  }
-}
-
-.animated-bg {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  pointer-events: none;
-  z-index: 1;
-  overflow: hidden;
-  contain: strict;
-}
-
-.knowledge-node {
-  position: absolute;
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  background: rgba(255, 255, 255, 0.15);
-  border: 2px solid rgba(255, 255, 255, 0.3);
-  box-shadow:
-    0 0 15px rgba(255, 255, 255, 0.35),
-    0 0 30px rgba(16, 185, 129, 0.2),
-    inset 0 0 8px rgba(255, 255, 255, 0.1);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  animation: nodePulse 5s infinite ease-in-out;
-  will-change: transform, opacity;
-}
-
-.node-icon {
-  width: 20px;
-  height: 20px;
-  color: rgba(255, 255, 255, 0.9);
-}
-
-.node-1 {
-  top: 15%;
-  left: 20%;
-  animation-delay: 0s;
-}
-
-.node-2 {
-  top: 25%;
-  left: 35%;
-  animation-delay: 0.5s;
-}
-
-.node-3 {
-  top: 20%;
-  left: 55%;
-  animation-delay: 1s;
-}
-
-.node-4 {
-  top: 30%;
-  left: 75%;
-  animation-delay: 1.5s;
-}
-
-.node-5 {
-  top: 45%;
-  left: 25%;
-  animation-delay: 2s;
-}
-
-.node-6 {
-  top: 50%;
-  left: 45%;
-  animation-delay: 2.5s;
-}
-
-.node-7 {
-  top: 48%;
-  left: 65%;
-  animation-delay: 3s;
-}
-
-.node-8 {
-  top: 60%;
-  left: 20%;
-  animation-delay: 0.3s;
-}
-
-.node-9 {
-  top: 12%;
-  right: 15%;
-  animation-delay: 1.8s;
-}
-
-.node-10 {
-  top: 38%;
-  right: 10%;
-  animation-delay: 2.3s;
-}
-
-.node-11 {
-  top: 70%;
-  left: 40%;
-  animation-delay: 0.8s;
-}
-
-.node-12 {
-  top: 65%;
-  left: 80%;
-  animation-delay: 1.3s;
-}
-
-@keyframes nodePulse {
-
-  0%,
-  100% {
-    transform: scale(1);
-    opacity: 0.65;
-  }
-
-  50% {
-    transform: scale(1.08);
-    opacity: 0.9;
-  }
-}
-
-.knowledge-lines {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  opacity: 0.35;
-}
-
-.connection-line {
-  stroke: rgba(255, 255, 255, 0.5);
-  stroke-width: 1.5;
-  stroke-dasharray: 6, 3;
-  stroke-linecap: round;
-  animation: lineFlow 10s infinite linear;
-  will-change: stroke-dashoffset;
-}
-
-.line-1 {
-  animation-delay: 0s;
-}
-
-.line-2 {
-  animation-delay: 0.5s;
-}
-
-.line-3 {
-  animation-delay: 1s;
-}
-
-.line-4 {
-  animation-delay: 0.3s;
-}
-
-.line-5 {
-  animation-delay: 0.8s;
-}
-
-.line-6 {
-  animation-delay: 1.3s;
-}
-
-.line-7 {
-  animation-delay: 1.8s;
-}
-
-.line-8 {
-  animation-delay: 2.3s;
-}
-
-.line-9 {
-  animation-delay: 0.2s;
-}
-
-.line-10 {
-  animation-delay: 0.7s;
-}
-
-.line-11 {
-  animation-delay: 0.9s;
-}
-
-.line-12 {
-  animation-delay: 1.5s;
-}
-
-@keyframes lineFlow {
-  0% {
-    stroke-dashoffset: 0;
-  }
-
-  100% {
-    stroke-dashoffset: 18;
-  }
-}
-
-@media (prefers-reduced-motion: reduce) {
-  .knowledge-node {
-    animation: none;
-    opacity: 0.65;
-  }
-
-  .connection-line {
-    animation: none;
   }
 }
 
@@ -1061,8 +671,8 @@ onMounted(async () => {
 .showcase-section {
   flex: 0 0 52%;
   display: flex;
-  align-items: flex-end;
-  padding: 100px 30px 100px 50px;
+  align-items: flex-start;
+  padding: 140px 30px 60px 50px;
   box-sizing: border-box;
   position: relative;
 }
@@ -1074,99 +684,17 @@ onMounted(async () => {
   z-index: 2;
   display: flex;
   flex-direction: column;
-  margin-bottom: 60px;
 }
 
 .showcase-subtitle {
   margin-top: 0;
-  font-size: 22px;
-  color: rgba(255, 255, 255, 0.95);
-  margin: 0 0 8px 0;
+  font-size: 32px;
+  color: var(--login-title);
+  margin: 0;
   font-family: var(--app-font-family);
-  line-height: 1.4;
-  font-weight: 500;
-}
-
-.showcase-description {
-  font-size: var(--app-text-lg);
-  color: rgba(255, 255, 255, 0.8);
-  margin: 0 0 28px 0;
-  font-family: var(--app-font-family);
-  line-height: 1.5;
-}
-
-.feature-tags {
-  display: flex;
-  gap: 12px;
-  margin-bottom: 40px;
-  flex-wrap: wrap;
-}
-
-.tag {
-  display: inline-block;
-  padding: 8px 20px;
-  background: rgba(255, 255, 255, 0.2);
-  border-radius: 20px;
-  color: var(--td-text-color-anti);
-  font-size: var(--app-text-base);
-  font-weight: 500;
-  font-family: var(--app-font-family);
-}
-
-/* Carousel */
-.carousel-container {
-  width: 100%;
-  margin-top: 48px;
-}
-
-.screenshot-swiper {
-  width: 100%;
-  border-radius: 16px;
-  overflow: hidden;
-  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
-  padding-bottom: 40px;
-
-  :deep(.swiper-wrapper) {
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  }
-
-  :deep(.swiper-pagination) {
-    bottom: 15px !important;
-    z-index: 10;
-  }
-
-  :deep(.swiper-pagination-bullet) {
-    width: 10px;
-    height: 10px;
-    background: rgba(255, 255, 255, 0.5);
-    opacity: 1;
-    transition: all var(--app-motion-slow) ease;
-    margin: 0 6px !important;
-  }
-
-  :deep(.swiper-pagination-bullet-active) {
-    background: var(--td-bg-color-container);
-    width: 28px;
-    border-radius: 5px;
-  }
-}
-
-.slide-content {
-  width: 100%;
-  height: 100%;
-  background: var(--td-bg-color-container);
-  border-radius: 16px;
-  overflow: hidden;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.slide-image {
-  width: 100%;
-  height: 100%;
-  display: block;
-  object-fit: contain;
+  line-height: 1.45;
+  font-weight: 600;
+  letter-spacing: 0.5px;
 }
 
 /* Right Form Section */
@@ -1196,8 +724,9 @@ onMounted(async () => {
   cursor: pointer;
 
   .logo-image {
-    width: 120px;
-    height: auto;
+    /* cowin-logo 为近方形横版（143x78），按高度约束避免换图后头部失衡 */
+    height: 40px;
+    width: auto;
   }
 }
 
@@ -1217,9 +746,9 @@ onMounted(async () => {
   gap: 7px;
   padding: 9px 15px;
   border-radius: 20px;
-  background: rgba(255, 255, 255, 0.2);
-  border: 1px solid rgba(255, 255, 255, 0.25);
-  color: var(--td-text-color-anti);
+  background: var(--login-pill-bg);
+  border: 1px solid var(--login-pill-border);
+  color: var(--login-pill-text);
   text-decoration: none;
   font-size: var(--app-text-md);
   font-weight: 600;
@@ -1237,9 +766,9 @@ onMounted(async () => {
   }
 
   &:hover {
-    background: rgba(255, 255, 255, 0.3);
-    border-color: rgba(255, 255, 255, 0.4);
-    color: var(--td-text-color-anti);
+    background: var(--login-pill-hover-bg);
+    border-color: var(--login-pill-hover-border);
+    color: var(--login-pill-text);
   }
 }
 
@@ -1247,9 +776,9 @@ onMounted(async () => {
   position: relative;
 
   button {
-    background: rgba(255, 255, 255, 0.2);
-    border: 1px solid rgba(255, 255, 255, 0.25);
-    color: var(--td-text-color-anti);
+    background: var(--login-pill-bg);
+    border: 1px solid var(--login-pill-border);
+    color: var(--login-pill-text);
 
     .lang-flag-icon {
       font-size: var(--app-text-xl);
@@ -1258,8 +787,8 @@ onMounted(async () => {
     }
 
     &:hover {
-      background: rgba(255, 255, 255, 0.3);
-      border-color: rgba(255, 255, 255, 0.4);
+      background: var(--login-pill-hover-bg);
+      border-color: var(--login-pill-hover-border);
     }
 
     svg:last-child {
@@ -1322,9 +851,9 @@ onMounted(async () => {
   background: rgba(255, 255, 255, 0.97);
   border-radius: 16px;
   padding: 40px;
-  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.15);
+  box-shadow: var(--login-card-shadow);
   box-sizing: border-box;
-  border: none;
+  border: 1px solid var(--login-card-border);
   width: 100%;
 }
 
@@ -1390,70 +919,6 @@ onMounted(async () => {
   color: var(--td-text-color-primary);
   margin: 0 0 6px 0;
   font-family: var(--app-font-family);
-}
-
-.form-welcome {
-  font-size: var(--app-text-md);
-  color: var(--td-text-color-secondary);
-  margin: 0;
-  font-family: var(--app-font-family);
-}
-
-.form-hint {
-  margin: 10px 0 0;
-  padding: 8px 12px;
-  border-radius: var(--app-radius-md);
-  background: var(--td-success-color-light);
-  color: var(--td-brand-color-active);
-  font-size: 12.5px;
-  line-height: 1.5;
-  font-family: var(--app-font-family);
-}
-
-/* 注册入口：从底部小字链接升级为带分隔线的醒目次级按钮，
-   让首次访客一眼就能找到「创建账户」。 */
-.register-cta {
-  margin-top: 8px;
-
-  &__divider {
-    position: relative;
-    text-align: center;
-    margin: 4px 0 14px;
-    color: var(--td-text-color-secondary);
-    font-size: var(--app-text-md);
-    font-family: var(--app-font-family);
-
-    span {
-      position: relative;
-      z-index: 1;
-      padding: 0 12px;
-      background: rgba(255, 255, 255, 0.97);
-    }
-
-    &::before {
-      content: '';
-      position: absolute;
-      left: 0;
-      right: 0;
-      top: 50%;
-      border-top: 1px solid var(--td-component-stroke);
-    }
-  }
-
-  &__button {
-    height: 46px;
-    border-radius: var(--app-radius-md);
-    font-size: var(--app-text-lg);
-    font-weight: 500;
-    border-color: var(--td-brand-color);
-    color: var(--td-brand-color);
-
-    &:hover {
-      border-color: var(--td-brand-color-active);
-      color: var(--td-brand-color-active);
-      background: var(--td-success-color-light);
-    }
-  }
 }
 
 .form-subtitle {
@@ -1592,55 +1057,10 @@ onMounted(async () => {
   margin-top: 12px;
 }
 
-.login-features {
-  margin-top: 20px;
-  padding: 0;
-
-  .feature-item {
-    display: flex;
-    align-items: center;
-    margin-bottom: 12px;
-    font-size: var(--app-text-md);
-    color: var(--td-text-color-secondary);
-    font-family: var(--app-font-family);
-
-    &:last-child {
-      margin-bottom: 0;
-    }
-
-    .feature-icon {
-      width: 20px;
-      height: 20px;
-      border-radius: 50%;
-      background: var(--td-success-color-light);
-      color: var(--td-brand-color-active);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-size: var(--app-text-sm);
-      font-weight: 700;
-      margin-right: 10px;
-      flex-shrink: 0;
-    }
-
-    .feature-text {
-      line-height: 1.4;
-    }
-  }
-}
-
 /* Responsive Design */
 @media (max-width: 1024px) {
-  .knowledge-node:nth-of-type(n + 13) {
-    display: none;
-  }
-
-  .connection-line:nth-of-type(n + 13) {
-    display: none;
-  }
-
   .showcase-subtitle {
-    font-size: var(--app-text-2xl);
+    font-size: 28px;
   }
 
   .header-logo {
@@ -1648,7 +1068,7 @@ onMounted(async () => {
     left: 40px;
 
     .logo-image {
-      width: 100px;
+      height: 34px;
     }
   }
 
@@ -1675,18 +1095,11 @@ onMounted(async () => {
     box-sizing: border-box;
   }
 
-  .knowledge-node:nth-of-type(n + 9) {
-    display: none;
-  }
-
-  .connection-line:nth-of-type(n + 9) {
-    display: none;
-  }
-
   .showcase-section {
     flex: 0 0 auto;
     min-height: 50vh;
-    padding: 40px 24px;
+    padding: 40px 24px 20px;
+    align-items: flex-start;
   }
 
   .showcase-content {
@@ -1698,21 +1111,13 @@ onMounted(async () => {
     left: 30px;
 
     .logo-image {
-      width: 80px;
+      height: 30px;
     }
   }
 
   .showcase-subtitle {
-    font-size: var(--app-text-xl);
-    margin-bottom: 24px;
-  }
-
-  .feature-tags {
-    margin-bottom: 24px;
-  }
-
-  .carousel-container {
-    margin-top: 24px;
+    font-size: 24px;
+    margin-bottom: 0;
   }
 
   .form-section {
@@ -1746,10 +1151,6 @@ onMounted(async () => {
 }
 
 @media (max-width: 480px) {
-  .animated-bg {
-    display: none;
-  }
-
   .showcase-section {
     padding: 32px 20px;
   }
@@ -1759,17 +1160,12 @@ onMounted(async () => {
     left: 20px;
 
     .logo-image {
-      width: 70px;
+      height: 26px;
     }
   }
 
   .showcase-subtitle {
-    font-size: var(--app-text-base);
-  }
-
-  .tag {
-    font-size: var(--app-text-sm);
-    padding: 6px 16px;
+    font-size: 20px;
   }
 
   .form-section {
@@ -1801,56 +1197,32 @@ onMounted(async () => {
   }
 }
 
-@media (prefers-reduced-motion: reduce) {
-
-  .knowledge-node,
-  .connection-line {
-    animation: none !important;
-    transition: none !important;
-  }
-
-  .animated-bg {
-    display: none;
-  }
-}
 </style>
 
 <style lang="less">
+/* 暗色主题：整体重定义 --login-* token，恢复深绿画布 + 浅色元素。
+   基础层的结构规则（布局、动画、尺寸）全部复用。 */
 html[theme-mode="dark"] {
   .login-layout {
-    background: linear-gradient(225deg, #011a14 0%, #032e22 15%, #043a2c 25%, #05503d 38%, #046647 50%, #038a56 65%, #049b60 78%, #06a06a 90%, #07b074 100%);
+    --login-canvas: linear-gradient(225deg, #011a14 0%, #032e22 15%, #043a2c 25%, #05503d 38%, #046647 50%, #038a56 65%, #049b60 78%, #06a06a 90%, #07b074 100%);
+    --login-atmo-1: rgba(255, 255, 255, 0.06);
+    --login-atmo-2: rgba(255, 255, 255, 0.04);
+                  --login-title: rgba(255, 255, 255, 0.95);
+            --login-pill-bg: rgba(255, 255, 255, 0.12);
+    --login-pill-border: rgba(255, 255, 255, 0.15);
+    --login-pill-text: var(--td-text-color-anti);
+    --login-pill-hover-bg: rgba(255, 255, 255, 0.2);
+    --login-pill-hover-border: rgba(255, 255, 255, 0.25);
+          --login-card-border: rgba(255, 255, 255, 0.08);
+    --login-card-shadow: 0 10px 40px rgba(0, 0, 0, 0.4);
   }
 
-  .knowledge-node {
-    background: rgba(255, 255, 255, 0.1);
-    border-color: rgba(255, 255, 255, 0.2);
-    box-shadow: 0 0 8px rgba(255, 255, 255, 0.15);
-  }
-
-  .connection-line {
-    stroke: rgba(255, 255, 255, 0.25);
-  }
+  /* 暗色画布是渐变，token 存整个渐变值，background 直接引用。 */
 
   .header-logo .logo-image {
-    filter: invert(1) hue-rotate(180deg) brightness(1.1);
-  }
-
-  .header-link {
-    background: rgba(255, 255, 255, 0.12);
-    border-color: rgba(255, 255, 255, 0.15);
-
-    &:hover {
-      background: rgba(255, 255, 255, 0.2);
-    }
-  }
-
-  .language-switch button {
-    background: rgba(255, 255, 255, 0.12);
-    border-color: rgba(255, 255, 255, 0.15);
-
-    &:hover {
-      background: rgba(255, 255, 255, 0.2);
-    }
+    /* cowin-logo 为彩色（蓝字橙弧），反转滤镜会破坏品牌色，
+       改用轻微投影提升深色画布上的分离度 */
+    filter: drop-shadow(0 0 6px rgba(255, 255, 255, 0.35));
   }
 
   .language-dropdown {
@@ -1859,17 +1231,8 @@ html[theme-mode="dark"] {
     box-shadow: 0 4px 16px rgba(0, 0, 0, 0.4) !important;
   }
 
-  .tag {
-    background: rgba(255, 255, 255, 0.12);
-  }
-
   .form-card {
     background: rgba(36, 36, 36, 0.97) !important;
-    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.4) !important;
-  }
-
-  .register-cta__divider span {
-    background: rgba(36, 36, 36, 0.97);
   }
 
   .form-content .t-input {
@@ -1885,12 +1248,5 @@ html[theme-mode="dark"] {
     }
   }
 
-  .screenshot-swiper .swiper-pagination-bullet-active {
-    background: rgba(255, 255, 255, 0.9) !important;
-  }
-
-  .login-features .feature-icon {
-    background: rgba(6, 176, 77, 0.15);
-  }
 }
 </style>

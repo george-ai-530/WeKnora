@@ -2752,7 +2752,7 @@ export default {
     askUser: '사용자에게 질문'
   },
   assistant: {
-    title: 'WeKnora 어시스턴트',
+    title: 'cowin 어시스턴트',
     newConversation: '새 대화',
     history: '대화 기록',
     untitledConversation: '제목 없는 대화',
@@ -2769,7 +2769,7 @@ export default {
     welcomeDesc: 'WeKnora 사용법을 안내하고, 지식과 문서를 정리하며, 에이전트·도구·자동화 설정을 도와드릴 수 있습니다.',
     help: {
       label: '어시스턴트 설명',
-      title: 'WeKnora 어시스턴트가 할 수 있는 일',
+      title: 'cowin 어시스턴트가 할 수 있는 일',
       identity: '어시스턴트는 사용자 본인으로 동작합니다. 보고 수정할 수 있는 범위는 이 공간에서 가진 역할과 같으며, 그 권한을 넘지 않습니다.',
       page: '열면 현재 페이지가 함께 붙습니다. 화면의 내용을 정리하고, 에이전트와 자동화를 설정하거나, 양식을 대신 채울 수 있습니다. 버튼을 누르거나 저장하지는 않습니다.',
       access: '입력창 아래에서 권한을 바꿀 수 있습니다. 읽기 전용, 수정 전 확인, 되돌릴 수 있는 수정은 자동 실행. 삭제는 항상 확인이 필요하며, 관리자가 정한 상한은 넘을 수 없습니다.',
@@ -6789,7 +6789,7 @@ export default {
     haveAccount: '이미 계정이 있으신가요?',
     backToLogin: '로그인으로 돌아가기',
     loginHint: '로그인하여 계속하세요. 처음이시라면 아래에서 계정을 만드세요.',
-    firstTime: 'WeKnora가 처음이신가요?',
+    firstTime: 'cowin가 처음이신가요?',
     registerSuccess: '가입이 완료되었습니다. 로그인해주세요',
     registerFailed: '가입 실패',
     subtitle: 'RAG Q&A, ReAct 에이전트, Wiki 지식베이스 — 대규모 언어 모델 기반 엔터프라이즈 지식 프레임워크',
@@ -9264,7 +9264,7 @@ export default {
         desc: '모든 것의 시작점입니다. 문서, 웹페이지, FAQ를 업로드하면 WeKnora가 자동으로 분석하고 색인합니다. 여기를 클릭해 지식 베이스로 이동하세요.'
       },
       welcome: {
-        title: 'WeKnora에 오신 것을 환영합니다',
+        title: 'cowin에 오신 것을 환영합니다',
         desc: '몇 단계만으로 지식 베이스, 대화, 에이전트의 핵심 사용법을 안내합니다. \'다음\'을 눌러 시작하세요.'
       }
     }

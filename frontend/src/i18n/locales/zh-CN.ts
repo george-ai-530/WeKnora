@@ -2754,7 +2754,7 @@ export default {
     askUser: '向用户提问'
   },
   assistant: {
-    title: 'WeKnora 助手',
+    title: 'cowin 助手',
     newConversation: '新对话',
     history: '历史对话',
     untitledConversation: '未命名对话',
@@ -2771,7 +2771,7 @@ export default {
     welcomeDesc: '我可以解答 WeKnora 的使用问题，整理知识与文档，帮你配置智能体、工具和自动化。',
     help: {
       label: '助手说明',
-      title: 'WeKnora 助手能做什么',
+      title: 'cowin 助手能做什么',
       identity: '助手以你的身份工作。它能看到和修改的范围，与你在这个空间里的角色一致，不会超出你的权限。',
       page: '打开后会附带当前页面，可以据此梳理内容、配置智能体和自动化，或代为填写表单。它不会替你点击按钮或保存。',
       access: '输入框下方可以切换权限：只读、修改前确认、自动执行。删除始终需要你确认。管理员限制的最高等级无法突破。',
@@ -6790,7 +6790,7 @@ export default {
     haveAccount: '已有账户？',
     backToLogin: '返回登录',
     loginHint: '登录以继续使用；首次使用请在下方创建账户。',
-    firstTime: '首次使用 WeKnora？',
+    firstTime: '首次使用 cowin 知识库？',
     registerSuccess: '注册成功，请登录',
     registerFailed: '注册失败',
     subtitle: 'RAG 问答、ReAct 智能体与 Wiki 知识库，大模型驱动的企业级知识框架',
@@ -9265,7 +9265,7 @@ export default {
         desc: '知识库是一切的起点：上传文档、网页或 FAQ，WeKnora 会自动解析并建立索引。点击这里进入知识库。'
       },
       welcome: {
-        title: '欢迎使用 WeKnora',
+        title: '欢迎使用cowin 知识库',
         desc: '只需几步，带你快速了解知识库、对话与智能体的核心用法。点击「下一步」开始。'
       }
     }

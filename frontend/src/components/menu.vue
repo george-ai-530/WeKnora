@@ -3,7 +3,7 @@
         <!-- 展开时：Logo + 搜索/折叠按钮同行 -->
         <div class="logo_row" v-if="!uiStore.sidebarCollapsed">
             <div class="logo_box" @click="router.push('/platform/knowledge-bases')" style="cursor: pointer;">
-                <img class="logo" src="@/assets/img/weknora.png" alt="">
+                <span class="logo-text">cowin</span>
                 <sup v-if="isLiteEdition" class="lite-badge">Lite</sup>
             </div>
             <div class="logo_actions">
@@ -1402,6 +1402,16 @@ const resizeSidebar = (delta: number, keyboard: boolean) => {
         min-width: 0;
         overflow: hidden;
 
+        .logo-text {
+            font-size: 20px;
+            font-weight: 700;
+            letter-spacing: 1px;
+            color: var(--td-text-color-primary);
+            line-height: 1;
+            user-select: none;
+            white-space: nowrap;
+        }
+
         .logo {
             width: 108px;
             height: auto;
@@ -2023,6 +2033,8 @@ const resizeSidebar = (delta: number, keyboard: boolean) => {
 html[theme-mode="dark"] .aside_box .logo_box .logo {
     filter: invert(1) hue-rotate(180deg);
 }
+
+// 文字版 logo 使用主题变量，暗色下自动适配，无需额外处理
 
 // Dark mode: 滚动条在深色背景下需要更亮的颜色才看得见
 html[theme-mode="dark"] .aside_box .menu_top:hover {

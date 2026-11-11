@@ -681,7 +681,7 @@ export default {
         desc: 'Ask about WeKnora versions, features and setup. Using the current page as context, the assistant can create agents, schedule tasks and organize knowledge on your behalf, within your permissions.'
       },
       welcome: {
-        title: 'Welcome to WeKnora',
+        title: 'Welcome to cowin',
         desc: 'A few quick steps to get you familiar with knowledge bases, chat and agents. Click "Next" to begin.'
       },
       knowledge: {
@@ -3121,7 +3121,7 @@ export default {
     haveAccount: 'Already have an account?',
     backToLogin: 'Back to Login',
     loginHint: 'Sign in to continue, or create an account below if this is your first time.',
-    firstTime: 'New to WeKnora?',
+    firstTime: 'New to cowin?',
     registerSuccess: 'Registration successful. Please sign in',
     registerFailed: 'Registration failed',
     subtitle: 'RAG Q&A, ReAct Agent and Wiki — an LLM-powered enterprise knowledge framework',
@@ -6643,7 +6643,7 @@ export default {
       videoNotSupported: 'Your browser does not support video playback'
     },
     assistant: {
-      title: 'WeKnora Assistant',
+      title: 'cowin Assistant',
       newConversation: 'New conversation',
       history: 'Conversation history',
       untitledConversation: 'Untitled conversation',
@@ -6660,7 +6660,7 @@ export default {
       welcomeDesc: 'I can answer questions about WeKnora, organize knowledge and documents, and help set up agents, tools and automations.',
       help: {
         label: 'About the assistant',
-        title: 'What the WeKnora assistant can do',
+        title: 'What the cowin assistant can do',
         identity: 'The assistant works as you. It can see and change only what your role in this workspace allows.',
         page: 'It keeps the current page attached, so it can summarize what is on screen, set up agents and automations, or fill in forms. It will not click buttons or save for you.',
         access: 'Under the input you can switch access: read-only, confirm before changes, or run recoverable changes automatically. Deletes always need your confirmation, and an admin ceiling cannot be exceeded.',

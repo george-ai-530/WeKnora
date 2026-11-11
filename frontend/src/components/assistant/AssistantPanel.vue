@@ -130,18 +130,6 @@
               <ResourceIcon type="assistant" :size="28" />
             </div>
             <h3 class="assistant-welcome-title">{{ assistant.actionSuggestions?.label || t('assistant.welcomeTitle') }}</h3>
-            <p class="assistant-welcome-desc">{{ assistant.actionSuggestions ? t('assistant.chooseAction') : welcomeContent.description }}</p>
-          </div>
-          <div v-if="assistant.actionSuggestions" class="assistant-starters">
-            <button v-for="action in assistant.actionSuggestions.actions" :key="action.key" type="button"
-              class="assistant-starter" :disabled="starting || action.disabled"
-              @click="assistant.askSuggestedAction(action.key)">{{ action.label }}</button>
-          </div>
-          <div v-else class="assistant-starters">
-            <button v-for="starter in welcomeContent.starters" :key="starter" type="button" class="assistant-starter"
-              :disabled="starting" @click="startConversation(starter)">
-              {{ starter }}
-            </button>
           </div>
           <div class="assistant-welcome-composer">
             <InputField ref="welcomeInput" :embedded-mode="true" compact :auto-focus="assistant.visible"

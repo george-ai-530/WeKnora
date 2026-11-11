@@ -681,7 +681,7 @@ export default {
         desc: 'WeKnora のバージョン、機能、設定について質問できます。現在のページをもとに、あなたの権限でエージェントの作成、定期タスクの設定、ナレッジの整理も行えます。'
       },
       welcome: {
-        title: 'WeKnoraへようこそ',
+        title: 'cowinへようこそ',
         desc: '数ステップでナレッジベース、チャット、エージェントの使い方をご紹介します。「次へ」をクリックして開始してください。'
       },
       knowledge: {
@@ -3121,7 +3121,7 @@ export default {
     haveAccount: 'すでにアカウントをお持ちですか？',
     backToLogin: 'ログインに戻る',
     loginHint: 'ログインして続行してください。初めての方は下からアカウントを作成できます。',
-    firstTime: 'WeKnoraは初めてですか？',
+    firstTime: 'cowinは初めてですか？',
     registerSuccess: '登録が完了しました。ログインしてください',
     registerFailed: '登録に失敗しました',
     subtitle: 'RAG質問応答、ReActエージェント、Wiki。LLMが支える企業向けナレッジフレームワーク',
@@ -6643,7 +6643,7 @@ export default {
       videoNotSupported: 'お使いのブラウザは動画再生に対応していません'
     },
     assistant: {
-      title: 'WeKnora アシスタント',
+      title: 'cowin アシスタント',
       newConversation: '新しい会話',
       history: '会話履歴',
       untitledConversation: '無題の会話',
@@ -6660,7 +6660,7 @@ export default {
       welcomeDesc: 'WeKnora の使い方、ナレッジやドキュメントの整理、エージェント・ツール・自動化の設定をお手伝いします。',
       help: {
         label: 'アシスタントの説明',
-        title: 'WeKnora アシスタントにできること',
+        title: 'cowin アシスタントにできること',
         identity: 'アシスタントはあなた自身として動きます。見たり変更したりできる範囲は、このスペースでのあなたの役割までです。',
         page: '開くと現在のページが付きます。画面の内容を整理したり、エージェントや自動化を設定したり、フォームに記入したりできます。ボタンを押したり保存したりはしません。',
         access: '入力欄の下で権限を切り替えられます。閲覧のみ、変更前に確認、回復できる変更は自動実行。削除は必ず確認が必要で、管理者が定めた上限は超えられません。',
